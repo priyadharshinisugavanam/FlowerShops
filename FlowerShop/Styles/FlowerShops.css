@@ -1,0 +1,165 @@
+.outline {
+    width:70%;
+    border:1px solid black;
+    position:absolute;
+}
+/*heading*/
+h2 {
+    color: midnightblue;
+}
+/*subheading*/
+h3 {
+    color: white;
+    background-color: yellowgreen;
+}
+/*blankspace*/
+.blank {
+    display: flex;
+}
+/*greenline*/
+.fill {
+    padding:20px;
+    background-color:yellowgreen;
+}
+/*wholediv*/
+.column_design{
+    float:left;
+    width:25%;
+}
+/*firstdiv*/
+.column_content {
+    float: left;
+    width: 75%;
+}
+.End{
+    float:left;
+    width:10%
+}
+.image {
+    padding:10px 10px;
+}
+
+.aligns {
+    float: left;
+    width: 75%;
+    
+}
+
+.aligning {
+    float: right;
+    width: 30%;
+    
+}
+
+.design {
+    width: 50%;
+    
+}
+
+.Select {
+    width: 100px;
+    height: 17px;
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    background-image: url(Images/dropdown.png);
+    display: inline-block;
+    
+}
+
+
+
+footer {
+    padding: 2px;
+    background-color: yellowgreen;
+    height: 50%;
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    
+}
+
+.row {
+    display: flex;
+}
+
+body {
+    width: 50%;
+    font-family: Calibri;
+    align-items: center;
+}
+
+.table_design {
+    width: 100%;
+}
+
+
+.empty {
+    padding: 20px;
+    background-color: yellowgreen;
+}
+
+.table_bottom {
+    background-color: bisque;
+    width: 100%;
+}
+
+.hyperlink {
+    font-size: large;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+#ValidMonth{
+    display:none
+}
+
+#Valid{
+    display:none;
+}
+#ValidSecurity{
+    display:none
+}
+#ValidExpiry {
+    display: none
+}
+#ValidName {
+    display: none
+}
+#ValidAddress {
+    display: none
+}
+#ValidPhone{
+    display:none
+}
+#ValidTown {
+    display: none
+}
+#ValidPin {
+    display: none
+}
+#ValidMail {
+    display: none
+}
+input[type=text] {
+    border-color: darkturquoise;
+}
+
+#line {
+    text-align: center;
+    background-color: black;
+    height: 20px;
+}
+
+.Button {
+    color: midnightblue;
+    border: none;
+    background-color: white;
+    font-size: large;
+}
